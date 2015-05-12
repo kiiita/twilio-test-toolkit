@@ -7,9 +7,9 @@ require "twilio-test-toolkit/version"
 Gem::Specification.new do |s|
   s.name        = "twilio-test-toolkit"
   s.version     = TwilioTestToolkit::VERSION
-  s.authors     = ["Jack Nichols"]
-  s.email       = ["jack@jmongol.com"]
-  s.homepage    = "https://github.com/jmongol/twilio-test-toolkit"
+  s.authors     = ["kiiita"]
+  s.email       = ["kitter2011@gmail.com"]
+  s.homepage    = "https://github.com/kiiita/twilio-test-toolkit"
   s.summary     = "Better integration tests for apps that use Twilio"
   s.description = "Better integration tests for apps that use Twilio"
   s.licenses = ["MIT"]
