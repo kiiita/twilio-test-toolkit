@@ -1,6 +1,6 @@
 require "twilio-test-toolkit/call_scope"
   
-module TwilioTestToolkit
+module TwilioTestToolkit2
   # Models a call
   class CallInProgress < CallScope
     # Initiate a call. Options:

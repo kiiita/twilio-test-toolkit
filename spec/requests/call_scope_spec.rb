@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe TwilioTestToolkit::CallScope do
+describe TwilioTestToolkit2::CallScope do
   before(:each) do
     @our_number = "2065551212"
     @their_number = "2065553434"             
@@ -12,7 +12,7 @@ describe TwilioTestToolkit::CallScope do
     end
     
     it "should be a CallScope" do
-      @call.should be_a(TwilioTestToolkit::CallScope)
+      @call.should be_a(TwilioTestToolkit2::CallScope)
     end
     
     it "should have the informational methods" do

@@ -1,4 +1,4 @@
-module TwilioTestToolkit
+module TwilioTestToolkit2
   require 'twilio-test-toolkit/call_in_progress'
   
   # Adds the `ttt_call` method to the top-level namespace.

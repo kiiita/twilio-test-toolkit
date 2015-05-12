@@ -16,5 +16,5 @@ require 'capybara/rails'
 require 'twilio-test-toolkit'
 
 RSpec.configure do |config|
-  config.include TwilioTestToolkit::DSL, :type => :request
+  config.include TwilioTestToolkit2::DSL, :type => :request
 end

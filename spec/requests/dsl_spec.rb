@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe TwilioTestToolkit::DSL do
+describe TwilioTestToolkit2::DSL do
   before(:each) do
     @our_number = "2065551212"
     @their_number = "2065553434"        

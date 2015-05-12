@@ -73,7 +73,7 @@ You'll have to make one more change in spec/spec_helper.rb. If you are using Cap
 	RSpec.configure do |config|
 		...
 		# Configure Twilio Test Toolkit
-	  	config.include TwilioTestToolkit::DSL, :type => :request
+	  	config.include TwilioTestToolkit2::DSL, :type => :request
 		...
 	end
 
@@ -82,7 +82,7 @@ For Capybara 2.0, the "requests" directory is now called "features", so you need
 	RSpec.configure do |config|
 		...
 		# Configure Twilio Test Toolkit
-	  	config.include TwilioTestToolkit::DSL, :type => :feature
+	  	config.include TwilioTestToolkit2::DSL, :type => :feature
 		...
 	end
 
@@ -114,7 +114,7 @@ Options are:
 * **call_sid**. Specify an optional fixed value to be passed as params[:CallSid]. This is useful if you are expecting a specific SID. For instance, a common pattern is to initiate a call, store the SID in your database, and look up the call when you get the callback. If you don't pass a SID, TTT will generate one for you that's just a UUID.
 * **is_machine**. Controls params[:AnsweredBy]. See Twilio's documentation for more information on how Twilio uses this.
 
-*ttt_call* returns a *TwilioTestToolkit::CallInProgress* object, which is a descendent of *TwilioTestToolkit::CallScope*. You'll want to save this object as it's how you interact with TTT.
+*ttt_call* returns a *TwilioTestToolkit2::CallInProgress* object, which is a descendent of *TwilioTestToolkit2::CallScope*. You'll want to save this object as it's how you interact with TTT.
 
 It's worth noting that TTT won't pass any of the parameters you need to [validate that a request comes from Twilio](http://www.twilio.com/docs/security). Most people seem to only do this check in production, so if that applies to you, this won't be an issue. If you do this check in dev and test, you might want to consider submitting a pull request with a fix.
 
