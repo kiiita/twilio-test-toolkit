@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    twilio-test-toolkit (3.4.0)
+    twilio-test-toolkit2 (3.4.0)
       capybara
       uuidtools
 
@@ -111,4 +111,4 @@ DEPENDENCIES
   rails (>= 3.2.12)
   sqlite3
   sqlite3-ruby
-  twilio-test-toolkit!
+  twilio-test-toolkit2!

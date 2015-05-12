@@ -5,7 +5,7 @@ require "twilio-test-toolkit/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "twilio-test-toolkit"
+  s.name        = "twilio-test-toolkit2"
   s.version     = TwilioTestToolkit::VERSION
   s.authors     = ["kiiita"]
   s.email       = ["kitter2011@gmail.com"]
